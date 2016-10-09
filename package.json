@@ -1,12 +1,30 @@
 {
-  "description": "NativeScript Application",
-  "license": "",
+  "name": "nativescript-starter",
+  "version": "0.1.0",
+  "description": "NativeScript Angular2 Typescript boilerplate. Quick start to build a native mobile application",
+  "homepage": "https://github.com/mattma/nativescript-starter",
+  "license": "MIT",
   "readme": "NativeScript Application",
-  "repository": "<fill-your-repository-here>",
+  "repository": "https://github.com/mattma/nativescript-starter",
+  "bugs": {
+    "url": "https://github.com/mattma/nativescript-starter/issues"
+  },
   "author": {
     "name": "Matt Ma",
     "email": "matt@mattmadesign.com"
   },
+  "keywords": [
+    "NativeScript",
+    "Angular",
+    "Angular2",
+    "TypeScript",
+    "App",
+    "mobile",
+    "progressive web application",
+    "native",
+    "ios",
+    "android"
+  ],
   "nativescript": {
     "id": "io.mattma.ngstarter",
     "tns-ios": {
@@ -21,7 +39,6 @@
     "start": "tns livesync ios --emulator --watch",
     "test": ""
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "2.0.1",
     "@angular/compiler": "2.0.1",
