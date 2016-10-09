@@ -1,0 +1,22 @@
+# NativeScript specific
+hooks/
+lib/
+platforms/
+
+# compiled output
+app/**/*.js
+tmp/
+
+# dependencies
+node_modules/
+
+# IDEs and editors
+/.idea
+
+# misc
+npm-debug.log
+typings/
+
+# System Files
+.DS_Store
+Thumbs.db
