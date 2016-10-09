@@ -5,6 +5,7 @@ platforms/
 
 # compiled output
 app/**/*.js
+app/**/*.js.map
 tmp/
 
 # dependencies
