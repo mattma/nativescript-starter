@@ -4,6 +4,7 @@ lib/
 platforms/
 
 # compiled output
+app/**/*.css
 app/**/*.js
 app/**/*.js.map
 tmp/

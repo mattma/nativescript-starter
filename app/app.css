@@ -1,6 +1,1 @@
-﻿@import url('~/platform.css');
-
-Page {
-  background-color: white;
-  font-size: 15;
-}
+@import url("~/platform.css");Page{background-color:white;font-size:15}
