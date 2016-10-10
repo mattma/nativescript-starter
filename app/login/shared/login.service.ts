@@ -10,7 +10,6 @@ import { User } from './user';
 @Injectable()
 export class LoginService {
   register (user: User) {
-    //noinspection TypeScriptUnresolvedFunction
     return (user.email) ?
       Observable.of(user) :
       Observable.throw(new Error('Please, pass an valid username'));

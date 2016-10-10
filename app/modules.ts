@@ -1,7 +1,7 @@
 import { NativeScriptModule } from 'nativescript-angular/platform';
 import { NativeScriptRouterModule } from 'nativescript-angular/router';
 
-import { routes } from "./app.routes";
+import { routes } from './app.routes';
 
 import { LoginModule } from './login/login.module';
 

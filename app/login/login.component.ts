@@ -1,5 +1,5 @@
-import { Component, OnInit, ElementRef, ViewChild } from "@angular/core";
-import { Router } from "@angular/router";
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 import { Page } from 'ui/page';
 import { Color } from 'color';
 import { View } from 'ui/core/view';
@@ -58,7 +58,7 @@ export class LoginComponent implements OnInit {
       );
   }
 
-  private submit () {
+  public submit () {
     if (this.isLoggedIn) {
       this.login();
     } else {
