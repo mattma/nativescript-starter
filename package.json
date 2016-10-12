@@ -32,6 +32,9 @@
     }
   },
   "scripts": {
+    "build": "npm run build:ios && npm run build:android",
+    "build:android": "tns build android --bundle",
+    "build:ios": "tns build ios --bundle",
     "clean": "rimraf node_modules hooks platforms lib npm-debug.log && npm cache clean",
     "clean:install": "npm set progress=false && npm install",
     "lint": "tslint \"app/**/*.ts\"",
