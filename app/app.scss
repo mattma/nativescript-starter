@@ -1,5 +1,9 @@
-﻿@import '~/css/core.light.css';
-@import url('~/platform.css');
+﻿@import './_bootstrap-map.scss';
+
+@import './core.light.ios.scss';
+@import './core.light.android.scss';
+
+// @import url('~/platform.css');
 
 Page {
   background-color: white;
