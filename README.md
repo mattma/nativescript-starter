@@ -16,6 +16,12 @@ npm install -g nativescript
 tns --version
 ```
 
+3. [CocoaPods](https://docs.nativescript.org/plugins/cocoapods)
+
+```bash
+sudo gem install cocoapods
+pod --version
+```
 
 ## Getting start guide
 
